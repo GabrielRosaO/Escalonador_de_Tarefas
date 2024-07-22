@@ -2,7 +2,7 @@
 Este é um projeto da disciplina de Sistemas Operacionais. 
 A ideia do projeto é construir um Escalonador de Arquivos, na linguagem C utilizando do método SJF(Shortest Job First)
 
-###Descrição do Projeto
+### Descrição do Projeto
 É passado um arquivo de texto com o nome e tempo necessário de execução para cada tarefa. 
 A disposição deles no arquivo é a seguinte: 
 Exemplo - tarefas.txt
@@ -30,7 +30,7 @@ tarefa4;tempo_de_inicio;tempo_de_término;
 tarefa5;tempo_de_inicio;tempo_de_término;
 tarefa6;tempo_de_inicio;tempo_de_término;
 ```
-###Execução do código
+### Execução do código
 Para executar o código é preciso passar o arquivo de texto com as tarefas e o número de processadores a ser utilizado.
 Para compilação do código:
 ```
