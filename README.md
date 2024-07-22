@@ -23,10 +23,13 @@ O código lê esse arquivo e gera outro arquivo de texto como resposta, result.t
 No arquivo de resultado a disposição das tarefas é:
 ```
 Processador [i]
+
 tarefa1;tempo_de_inicio;tempo_de_término;
 tarefa2;tempo_de_inicio;tempo_de_término;
 tarefa3;tempo_de_inicio;tempo_de_término;
+
 Processador[i+1]
+
 tarefa4;tempo_de_inicio;tempo_de_término;
 tarefa5;tempo_de_inicio;tempo_de_término;
 tarefa6;tempo_de_inicio;tempo_de_término;
