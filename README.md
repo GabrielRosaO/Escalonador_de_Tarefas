@@ -35,7 +35,9 @@ tarefa6;tempo_de_inicio;tempo_de_término;
 Para executar o código é preciso passar o arquivo de texto com as tarefas e o número de processadores a ser utilizado.
 Para compilação do código:
 ```
-gcc trabalho_escalonador -o 'nome_executável'
+gcc -Wall -g -c function_implementations.c -o functions.o
+gcc -Wall -g -c main.c -o main.o
+gcc -o 'nome_executável'.exe functions.o main.o
 ```
 Um exemplo de execução do código com 2 processadores e arquivo de texto com as tarefas como 'tarefas.txt', no Windows:
 ```
