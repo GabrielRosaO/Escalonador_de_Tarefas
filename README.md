@@ -1,6 +1,7 @@
 # Escalonador_de_Tarefas
 Este é um projeto da disciplina de Sistemas Operacionais. 
-A ideia do projeto é construir um Escalonador de Arquivos, na linguagem C utilizando do método SJF(Shortest Job First)
+A ideia do projeto é construir um Escalonador de Arquivos, na linguagem C utilizando do método SJF(Shortest Job First).
+Esse método executa as tarefas de acordo com a que tiver menor tempo necessário para execução.
 
 ### Descrição do Projeto
 É passado um arquivo de texto com o nome e tempo necessário de execução para cada tarefa. 
